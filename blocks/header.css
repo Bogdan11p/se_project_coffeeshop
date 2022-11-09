@@ -10,25 +10,34 @@
 }
 
 .header__title {
-  margin-left: 80px;
 }
 
 .header__span-accent {
+  max-width: 729px;
+  margin-left: 80px;
+  margin-top: 202px;
+  padding-top: 80px;
+  padding-bottom: 28px;
 }
 
 .header__description {
+  padding-top: 28px;
+  max-width: 683px;
+  margin-left: 80px;
 }
 
 .header__image {
   position: absolute;
   width: 646px;
   height: 568px;
-  right: 5px;
-  top: 124px;
+  margin-right: 5px;
+  margin-top: 124px;
 }
 
 .header__footer {
   display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .header__footer-hours {
