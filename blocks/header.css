@@ -16,14 +16,11 @@
   line-height: 72px;
   max-width: 729px;
   margin-left: 80px;
-  margin-top: 202px;
-  padding-top: 80px;
-  padding-bottom: 28px;
+  margin-top: 80px;
 }
 
 .header__span-accent {
   display: block;
-
   font-family: Noto Serif;
   font-style: italic;
   font-weight: normal;
@@ -36,6 +33,11 @@
   padding-top: 28px;
   max-width: 683px;
   margin-left: 80px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
@@ -53,12 +55,24 @@
 }
 
 .header__footer-hours {
-}
-
-.header__footer {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  display: block;
 }
 
 .header__address {
-  bottom: 40px;
-  right: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+
+  z-index: 1;
 }
