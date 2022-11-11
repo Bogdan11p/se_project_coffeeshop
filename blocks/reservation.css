@@ -48,7 +48,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
-  width: 365px;
+  width: 385px;
   height: 60px;
   display: flex;
   justify-content: center;
@@ -64,7 +64,7 @@
   color: #ffffff;
   background-color: #2f80ed;
   margin-top: 32px;
-  width: 385px;
+  width: 393px;
   height: 60px;
 }
 
@@ -75,13 +75,18 @@
 }
 
 .form__label {
-  width: 385px;
-  margin-left: 560px;
+  width: 393px;
+
   display: flex;
   justify-content: flex-start;
 }
 
 .form__input-poisition {
+  display: flex;
+  justify-content: center;
+}
+
+.form__label-poisition {
   display: flex;
   justify-content: center;
 }
