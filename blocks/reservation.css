@@ -34,10 +34,10 @@
 }
 
 .form__label {
-  padding-bottom: 8px;
   font-weight: bold;
   display: flex;
   justify-content: center;
+  margin-bottom: 4px;
 }
 
 .form__input {
@@ -76,9 +76,10 @@
 
 .form__label {
   width: 393px;
-
+  height: 20px;
   display: flex;
   justify-content: flex-start;
+  padding-bottom: 8px;
 }
 
 .form__input-poisition {
