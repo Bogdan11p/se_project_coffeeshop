@@ -147,8 +147,99 @@
             </div>
           </div>
         </section>
-        <section></section>
-        <section></section>
+        <section class="recipes" id="recipes">
+          <h1 class="recipes__title">Recipes</h1>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__video">
+            <div class="recipes__iframe">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/watch?v=j6VlT_jUVPc "
+              ></iframe>
+              <p class="recipes__video-caption">
+                Aeropess recipe<span
+                  class="recipes__video-caption-divider"
+                ></span>
+                ~5 min
+              </p>
+            </div>
+            <div class="recipes__iframe">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/watch?v=st571DYYTR8"
+              ></iframe>
+              <p class="recipes__video-caption">
+                French press recipe<span
+                  class="recipes__video-caption-divider"
+                ></span
+                >~15 min
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="book-a-table">
+          <h1 class="reservation__title">Book a table</h1>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <p class="form__label">Name *</p>
+              <div class="form__input-poisition">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Name Surname"
+                />
+              </div>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <p class="form__label">Number of guests *</p>
+              <div class="form__input-poisition">
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                />
+              </div>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <p class="form__label">Date & time *</p>
+              <div class="form__input-poisition">
+                <input
+                  type="datetime"
+                  class="form__input"
+                  placeholder="mm/dd/yyyy --:-- --"
+                />
+              </div>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <p class="form__label">Your email *</p>
+              <div class="form__input-poisition">
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                />
+              </div>
+            </fieldset>
+          </form>
+          <fieldset class="form__fieldset">
+            <div class="form__input-poisition">
+              <button type="submit" class="form__button">Book a table</button>
+            </div>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <div class="form__input-poisition">
+              <input type="checkbox" class="form__input_type_checkbox" />I agree
+              with the terms of use
+            </div>
+          </fieldset>
+        </section>
         <section></section>
       </main>
       <footer></footer>
