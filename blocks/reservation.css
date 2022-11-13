@@ -66,6 +66,7 @@
   margin-top: 32px;
   width: 393px;
   height: 60px;
+  opacity: 1;
 }
 
 .form__input_type_checkbox {
@@ -90,4 +91,9 @@
 .form__label-poisition {
   display: flex;
   justify-content: center;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+  transition: opacity 1s ease-out;
 }
