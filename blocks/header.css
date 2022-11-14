@@ -17,6 +17,7 @@
   max-width: 729px;
   margin-left: 80px;
   margin-top: 80px;
+  color: #000000;
 }
 
 .header__span-accent {
@@ -38,6 +39,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  color: #000000;
 }
 
 .header__image {
@@ -59,7 +61,7 @@
 }
 .header__paragraph-hours {
   padding-left: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .header__paragraph-hours-text {
@@ -68,7 +70,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -79,7 +80,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-right: 80px;
 
   z-index: 1;
