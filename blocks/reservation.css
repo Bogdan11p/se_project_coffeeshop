@@ -39,6 +39,8 @@
   display: flex;
   justify-content: center;
   margin-bottom: 4px;
+  width: 393px;
+  height: 20px;
 }
 
 .form__input {
