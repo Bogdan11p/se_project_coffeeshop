@@ -57,20 +57,21 @@
   z-index: 0;
 }
 
-.header__paragraph {
+.header__paragraph-position {
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
+  padding-left: 80px;
   bottom: 40px;
   position: absolute;
   color: #6f6f6f;
   width: 100%;
-}
-.header__paragraph-hours {
-  padding-left: 80px;
+  padding-bottom: 40px;
 }
 
-.header__paragraph-hours-text {
+.header__paragraph-schedule {
+}
+
+.header__paragraph {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -78,17 +79,5 @@
   line-height: 20px;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.header__paragraph-address {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 0;
-  margin-right: 80px;
-  margin-top: 0;
-
   z-index: 1;
 }

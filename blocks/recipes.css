@@ -21,7 +21,7 @@
 }
 
 .recipes__subtitle {
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,7 +42,13 @@
   gap: 40px;
 }
 
-.recipes__video-iframe {
+.receipes__video-iframe-aeropress {
+  width: 480px;
+  height: 273px;
+  border: none;
+}
+
+.receipes__video-iframe-frenchpress {
   width: 480px;
   height: 273px;
   border: none;

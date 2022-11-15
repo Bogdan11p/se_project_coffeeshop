@@ -18,3 +18,8 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.reservation__form {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
