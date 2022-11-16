@@ -1,5 +1,6 @@
 .header {
   height: 100vh;
+  min-height: 720px;
   max-height: 800px;
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
@@ -7,6 +8,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -24,7 +26,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -37,7 +39,7 @@
   padding-top: 28px;
   max-width: 683px;
   margin-left: 80px;
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -54,7 +56,7 @@
   height: 568px;
   right: 5px;
   top: 124px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .header__paragraph-position {
@@ -69,9 +71,6 @@
   box-sizing: border-box;
   padding-right: 80px;
   align-items: flex-end;
-}
-
-.header__paragraph-schedule {
 }
 
 .header__paragraph {
